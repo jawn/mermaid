@@ -224,14 +224,14 @@ https://cdn.rawgit.com/knsv/mermaid/#version#/dist/mermaid.min.js</code></pre><p
 </ul>
 <p>Example:</p>
 <pre class="css"><code>mermaid.init({noteMargin: 10}, ".someOtherClass");</code></pre><p>Or with no config object, and a jQuery selection:</p>
-<pre class="css"><code>mermaid.init(undefined, $("#someId .yetAnotherClass"));</code></pre><aside class="warning">This type of integration is deprecated instead the preferred way of handling more complex integration is to us the mermaidAPI instead.</aside>
+<pre class="css"><code>mermaid.init(undefined, $("#someId .yetAnotherClass"));</code></pre><aside class="warning">This type of integration is deprecated instead the preferred way of handling more complex integration is to use the mermaidAPI instead.</aside>
 
 <h2 id="usage-with-browserify">Usage with browserify</h2>
 <p>The reader is assumed to know about CommonJS style of module handling and how to use browserify. If not a good place<br>to start would be <a href="http://browserify.org/">http://browserify.org/</a> website.</p>
 <p>Minimalistic javascript:</p>
 <pre class="css"><code>mermaid = require('mermaid');
 console.log('Test page! mermaid version'+mermaid.version());</code></pre><p>Bundle the javascript with browserify.</p>
-<p>Us the created bundle on a web page as per example below:</p>
+<p>Use the created bundle on a web page as per example below:</p>
 <pre class="css"><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
